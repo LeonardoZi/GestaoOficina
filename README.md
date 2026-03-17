@@ -1,16 +1,45 @@
-# React + Vite
+# MotorTech - Sistema de Gestão para Oficinas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um painel administrativo desenvolvido para facilitar o dia a dia de oficinas mecânicas e auto centers. O foco do sistema é mostrar as informações que realmente importam, como agendamentos, serviços e clientes, de um jeito simples e direto.
 
-Currently, two official plugins are available:
+## Sobre o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto foi criado com o objetivo de estudo e prática. Estou usando esse projeto como um laboratório real para me desenvolver na área de programação Full Stack. Aqui, o foco é aplicar conceitos do mercado, desde a criação da interface e experiência do usuário no Front-end, até a construção de toda a lógica, servidor e banco de dados no Back-end para o sistema funcionar de ponta a ponta.
 
-## React Compiler
+## Tecnologias Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* Vite
+* CSS Modules
+* JavaScript (JSX)
 
-## Expanding the ESLint configuration
+## Funcionalidades Atuais
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Navegação entre as páginas do painel estruturada.
+* Tela principal (Dashboard) com visual limpo e ajustável ao tamanho do espaço.
+* Lista inteligente que exibe os próximos agendamentos da oficina, organizados automaticamente pela data mais próxima.
+* Menus e estrutura visual base da plataforma já montados em formato de componentes.
+
+## Próximos Passos
+
+* Implementação de um calendário interativo para filtragem visual de agendamentos diários.
+* Criação das telas individuais de Estoque, Clientes e Ordens de Serviço.
+* Preparação da estrutura para futura integração com banco de dados (Backend).
+
+## Como executar este projeto localmente
+
+Para testar este projeto no seu computador, você vai precisar do Node.js instalado.
+
+1. Clone este repositório:
+git clone [URL_DO_SEU_REPOSITORIO]
+
+2. Entre na pasta do projeto:
+cd [NOME_DA_PASTA]
+
+3. Instale as dependências necessárias:
+npm install
+
+4. Inicie o servidor:
+npm run dev
+
+O projeto vai abrir no seu navegador, normalmente no endereço http://localhost:5173.
