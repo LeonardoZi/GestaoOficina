@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './Dashboard.module.css'
 import Button from '../../components/Button/Button'
 import Agendamentos from '../../components/Agendamentos/Agendamentos'
+import Calendario from '../../components/Calendario/Calendario'
 
 const Dashboard = () => {
   return (
@@ -14,7 +15,9 @@ const Dashboard = () => {
           <div className={styles.agendamentos}>
             <Agendamentos/>
           </div>
-          <div className={styles.calendario}></div>
+          <div className={styles.calendario}>
+            <Calendario></Calendario>
+          </div>
 
         </div>
 

@@ -7,7 +7,7 @@ const Agendamentos = () => {
     { id: 1, cliente: "João Marcio dos Santos", os: "1", servico: "Troca de óleo", data: "12/03", hora: "14:00" },
     { id: 2, cliente: "Maria Betânia", os: "2", servico: "Revisão completa", data: "12/03", hora: "16:00" },
     { id: 3, cliente: "Roger Banana", os: "3", servico: "Motor aquecendo", data: "13/03", hora: "9:00" },
-    { id: 3, cliente: "Roger Banana", os: "3", servico: "Motor aquecendo", data: "13/03", hora: "9:00" }
+    { id: 4, cliente: "Roger Banana", os: "3", servico: "Motor aquecendo", data: "13/03", hora: "9:00" }
   ]
 
   return (
