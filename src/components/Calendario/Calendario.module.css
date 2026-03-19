@@ -1,4 +1,4 @@
-.calendar{
+.calendar {
     height: 100%;
 }
 
@@ -37,7 +37,7 @@
     font-weight: bold;
 }
 
-:global(.rbc-day-slot, .rbc-timeslot-group, .rbc-time-slot){
+:global(.rbc-day-slot, .rbc-timeslot-group, .rbc-time-slot) {
     border-color: #000;
     border-left: 1px solid #000;
     color: #000;
@@ -62,14 +62,38 @@
     font-weight: bold;
 }
 
-:global(.rbc-agenda-date-cell),:global(.rbc-agenda-time-cell) {
+:global(.rbc-agenda-date-cell),
+:global(.rbc-agenda-time-cell) {
     background-color: #dadada;
 }
 
-:global(.rbc-agenda-date-cell),:global(.rbc-agenda-time-cell),:global(.rbc-agenda-event-cell){
+:global(.rbc-agenda-date-cell),
+:global(.rbc-agenda-time-cell),
+:global(.rbc-agenda-event-cell) {
     border: 1px solid #000;
 }
 
-:global(.rbc-agenda-event-cell){
+:global(.rbc-agenda-event-cell) {
     font-weight: bold;
+}
+
+.toolbarContainer{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.mesAno{
+    width: 50%;
+    justify-content: flex-start;
+    font-size: 2rem;
+}
+
+.dirTop{
+    width: 50%;
+    justify-content: end;
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
 }

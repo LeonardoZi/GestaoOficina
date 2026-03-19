@@ -1,8 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from "./components/navbar/navbar";
+import Navbar from "./components/Navbar/Navbar";
 import Dashboard from "./pages/Dashboard/Dashboard";
-import 'bootstrap/dist/css/boostrap.main.css'
-import 'bootstrap-icons/'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function App() {
 
